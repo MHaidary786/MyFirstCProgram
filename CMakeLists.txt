@@ -3,4 +3,8 @@ project(MyFirstCProgram C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(MyFirstCProgram main.c)
+add_executable(MyFirstCProgram main.c
+        FToC.h
+        FToC.c
+        BoxText.h
+        BoxText.c)
